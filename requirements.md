@@ -2,20 +2,40 @@ Users
   - Editor 
       - Functional Requirements
           - Make Updates to articles
+            -Group should have editors specific to group focus
+            -Should be able to add or delete content, for example
           - Log in Credentials
+            -Username, Password, 2FA
           - Make comments on articles
+            -Similar to making updates
+            -Area on right hand side to make updates
           - Make recommendations for photos
+            -Should be able to send emails to photographers on recommendations on photos to take
+            -Ask permission for other photographers in other groups to take photos or use existing photos
   - Photographer
        - Functional Requirements
           - Upload photos to databases
+            -Specify different file types(png., jpeg, jpg, etc.)
+            -Size limits for photos
           - Review/Edit photos
+            -Using Photoshop to edit photos
           - Group photos based on certain characteristics
+            -Specify location, genre, keywords, for photos
+            -Be able to search by above characteristics, unique identifiers
   - Journalist
         - Functional Requirements
           - Search for photos based on keywords
+            -Using specific keywords, photographer names, genres, etc.
           - Submit articles to Editor
+            -Would need a submit button article
+            -Need a button to attach files related to the article
           - Log in credentials
+            -Need a username, password, 2FA
+            -Need access to view their articles
+            -Access to read other articles but not edit
           - Respond to comments from Editor with changes
+            -Be able to submit their own changes to the editor for revision
+            -
     
 System Requirements
  - Picture Database
